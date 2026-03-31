@@ -53,8 +53,7 @@ A practical guide for building apps (Next.js, React, React Native, etc.) using C
 
 ---
 
-<details>
-<summary><h3>Phase 1 — Starting a Brand New Project</h3></summary>
+## Phase 1 — Starting a Brand New Project
 
 ### Step 1 — Scaffold the project
 
@@ -104,12 +103,9 @@ Each `#` line is saved to Claude's memory immediately and applied in every futur
 
 **When to run `/init`:** After you've built 1–2 real features. By then your project has actual structure, patterns, and conventions worth scanning — and `CLAUDE.md` becomes genuinely useful. Alternatively, write `CLAUDE.md` by hand — you know your own project better than Claude can infer from scanning.
 
-</details>
-
 ---
 
-<details>
-<summary><h3>Phase 1b — Joining an Existing Codebase</h3></summary>
+## Phase 1b — Joining an Existing Codebase
 
 > Skip to Phase 2 if you just finished Phase 1. This phase is only for when you're opening a project that already has real code.
 
@@ -157,12 +153,9 @@ Anything that is too personal, session-specific, or not relevant to future teamm
 
 `CLAUDE.md` is shared with the team (committed to git). `#` memory is yours alone.
 
-</details>
-
 ---
 
-<details>
-<summary><h3>Phase 2 — Planning a Feature</h3></summary>
+## Phase 2 — Planning a Feature
 
 Always plan before asking Claude to code anything non-trivial. This prevents Claude from going in the wrong direction and wasting your time.
 
@@ -216,12 +209,9 @@ The design doc becomes your source of truth. Reference it when prompting Claude:
 @plans/user-auth.plan.md — implement this
 ```
 
-</details>
-
 ---
 
-<details>
-<summary><h3>Phase 3 — Building the Feature</h3></summary>
+## Phase 3 — Building the Feature
 
 ### Step 7 — Use Plan Mode for large changes
 
@@ -289,12 +279,9 @@ Use `@` to point Claude at a specific file:
 
 This is faster and more precise than describing the file in words.
 
-</details>
-
 ---
 
-<details>
-<summary><h3>Phase 4 — Committing Your Work</h3></summary>
+## Phase 4 — Committing Your Work
 
 ### Step 11 — Commit after each logical unit of work
 
@@ -320,12 +307,9 @@ This is faster and more precise than describing the file in words.
 
 **Commit often** — after each feature slice, bug fix, or refactor. Don't let changes pile up.
 
-</details>
-
 ---
 
-<details>
-<summary><h3>Phase 5 — Ongoing Development</h3></summary>
+## Phase 5 — Ongoing Development
 
 ### Step 12 — Save important decisions to memory
 
@@ -362,8 +346,6 @@ If your team adopts a new pattern, switches a tool, or adds a major convention, 
 ```
 
 You don't need to re-run `/init` — just edit the file directly.
-
-</details>
 
 ---
 
