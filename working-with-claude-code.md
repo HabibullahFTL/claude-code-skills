@@ -43,7 +43,7 @@ Without `commit-all`, it only commits `.gitignore`.
 <details>
 <summary><h4>Step 3 — Use <code>/init</code> to give Claude the full picture</h4><p>Use <code>#</code> to tell Claude your conventions first; run <code>/init</code> only after implementing a few real features</p></summary>
 
-Don't run `/init` immediately after scaffolding. At that point your project is 100% boilerplate — Claude already knows the default commands for Next.js, Expo, React Native, etc. Running `/init` this early produces a `CLAUDE.md` that just echoes things Claude already knows.
+Don't run `/init` immediately after scaffolding. At that point your project is 100% boilerplate — Claude already knows the default commands for Next.js, Expo, React Native, etc. Running `/init` this early produces a [`CLAUDE.md`](#splitting-a-large-claudemd) that just echoes things Claude already knows.
 
 Instead, as you start building, tell Claude your conventions using the `#` prefix:
 
@@ -55,7 +55,9 @@ Instead, as you start building, tell Claude your conventions using the `#` prefi
 
 Each `#` line is saved to Claude's memory immediately and applied in every future session.
 
-**When to run `/init`:** After you've built 1–2 real features. By then your project has actual structure, patterns, and conventions worth scanning — and `CLAUDE.md` becomes genuinely useful. Alternatively, write `CLAUDE.md` by hand — you know your own project better than Claude can infer from scanning.
+**When to run `/init`:** After you've built 1–2 real features. By then your project has actual structure, patterns, and conventions worth scanning — and [`CLAUDE.md`](#splitting-a-large-claudemd) becomes genuinely useful. Alternatively, write [`CLAUDE.md`](#splitting-a-large-claudemd) by hand — you know your own project better than Claude can infer from scanning.
+
+Read more: [Splitting a Large CLAUDE.md](#splitting-a-large-claudemd)
 
 </details>
 
@@ -75,6 +77,8 @@ Each `#` line is saved to Claude's memory immediately and applied in every futur
 ```
 
 Claude will explore the codebase and write a `CLAUDE.md` at the project root.
+
+Read more: [Splitting a Large CLAUDE.md](#splitting-a-large-claudemd)
 
 </details>
 
