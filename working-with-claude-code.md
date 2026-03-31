@@ -54,7 +54,7 @@ A practical guide for building apps (Next.js, React, React Native, etc.) using C
 ---
 
 <details>
-<summary><strong>Phase 1 — Starting a Brand New Project</strong></summary>
+<summary><h3>Phase 1 — Starting a Brand New Project</h3></summary>
 
 ### Step 1 — Scaffold the project
 
@@ -109,7 +109,7 @@ Each `#` line is saved to Claude's memory immediately and applied in every futur
 ---
 
 <details>
-<summary><strong>Phase 1b — Joining an Existing Codebase</strong></summary>
+<summary><h3>Phase 1b — Joining an Existing Codebase</h3></summary>
 
 > Skip to Phase 2 if you just finished Phase 1. This phase is only for when you're opening a project that already has real code.
 
@@ -162,7 +162,7 @@ Anything that is too personal, session-specific, or not relevant to future teamm
 ---
 
 <details>
-<summary><strong>Phase 2 — Planning a Feature</strong></summary>
+<summary><h3>Phase 2 — Planning a Feature</h3></summary>
 
 Always plan before asking Claude to code anything non-trivial. This prevents Claude from going in the wrong direction and wasting your time.
 
@@ -221,7 +221,7 @@ The design doc becomes your source of truth. Reference it when prompting Claude:
 ---
 
 <details>
-<summary><strong>Phase 3 — Building the Feature</strong></summary>
+<summary><h3>Phase 3 — Building the Feature</h3></summary>
 
 ### Step 7 — Use Plan Mode for large changes
 
@@ -294,7 +294,7 @@ This is faster and more precise than describing the file in words.
 ---
 
 <details>
-<summary><strong>Phase 4 — Committing Your Work</strong></summary>
+<summary><h3>Phase 4 — Committing Your Work</h3></summary>
 
 ### Step 11 — Commit after each logical unit of work
 
@@ -325,7 +325,7 @@ This is faster and more precise than describing the file in words.
 ---
 
 <details>
-<summary><strong>Phase 5 — Ongoing Development</strong></summary>
+<summary><h3>Phase 5 — Ongoing Development</h3></summary>
 
 ### Step 12 — Save important decisions to memory
 
