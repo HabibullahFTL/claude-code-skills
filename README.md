@@ -20,7 +20,7 @@ Skills are slash commands (`/skill-name`) that extend Claude Code with reusable,
 
 ## How to work with Claude on your projects
 
-For a step-by-step walkthrough of the full development lifecycle (new projects, existing codebases, planning, building, committing), see [`working-with-claude-code.md`](./claude-code-guide-for-projects.md).
+For a step-by-step walkthrough of the full development lifecycle (new projects, existing codebases, planning, building, committing), see [`working-with-claude-code.md`](./working-with-claude-code.md).
 
 ---
 
