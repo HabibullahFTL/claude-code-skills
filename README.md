@@ -2,6 +2,28 @@
 
 Skills are slash commands (`/skill-name`) that extend Claude Code with reusable, prompt-driven workflows. Each skill lives in its own folder containing a `SKILL.md` file.
 
+---
+
+## Table of Contents
+
+- [How to work with Claude on your projects](#workflow-guide--full-project-lifecycle-with-skills)
+- [Directory structure](#directory-structure)
+- [Option 1 — Global skills (all projects)](#option-1--global-skills-all-projects)
+  - [Clone the entire repo](#clone-the-entire-repo)
+  - [Add a single skill folder](#add-a-single-skill-folder)
+  - [Keep skills up to date](#keep-skills-up-to-date)
+- [Option 2 — Project-level skills (one project)](#option-2--project-level-skills-one-project)
+- [Verify installation](#verify-installation)
+- [Writing your own skill](#writing-your-own-skill)
+
+---
+
+## How to work with Claude on your projects
+
+For a step-by-step walkthrough of the full development lifecycle (new projects, existing codebases, planning, building, committing), see [`working-with-claude-code.md`](./claude-code-guide-for-projects.md).
+
+---
+
 ## Directory structure
 
 ```
@@ -109,9 +131,9 @@ Instructions for Claude to follow when /my-skill is invoked.
 
 Optional frontmatter fields:
 
-| Field | Purpose |
-|---|---|
-| `argument-hint` | Hint shown after the skill name in autocomplete |
+| Field                      | Purpose                                                 |
+| -------------------------- | ------------------------------------------------------- |
+| `argument-hint`            | Hint shown after the skill name in autocomplete         |
 | `disable-model-invocation` | Set `true` to skip the LLM and run the prompt literally |
 
 Restart Claude Code after adding or editing a skill for changes to take effect.
